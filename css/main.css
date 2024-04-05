@@ -59,6 +59,7 @@ a {
 
 .list li {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .list li .photo {
@@ -68,8 +69,22 @@ a {
 
 .list li .text {
     width: 600px;
+    /* background-color: yellow; */
+    color: #333;
+    padding: 10px 0;
+
 
 }
+
+.list li .text h3 {
+    font-size: 30px;   
+}
+
+.list li .text h3 {
+    font-size: 30px;
+}
+       
+
 
 .container {
     padding: 50px 0 50px 0;
